@@ -1,0 +1,143 @@
+{
+	"id": "ee0cdccc-a144-332d-0aef-8aa572d2a6b6",
+	"name": "Coding_Test_ServerAWS",
+	"description": "",
+	"order": [
+		"ab4126b2-cb8c-eaa2-2026-212402a2780c",
+		"e6634dd7-6403-031a-7fbf-3b650e029ff2",
+		"a70667fe-8d29-c139-55ec-fc4e974a141e"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1603928923088,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "a70667fe-8d29-c139-55ec-fc4e974a141e",
+			"headers": "Content-Type: application/json\nHost: y5xferq6s9.execute-api.ap-southeast-2.amazonaws.com\nX-Amz-Date: 20201028T152106Z\nAuthorization: AWS4-HMAC-SHA256 Credential=AKIAYB3RBVGRH62374V3/20201028/ap-southeast-2/execute-api/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=4932d9081f103f4a7ae91a6e3ba4369115f07b9da4547454c4e4f9c6b0617243\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Host",
+					"value": "y5xferq6s9.execute-api.ap-southeast-2.amazonaws.com",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-Amz-Date",
+					"value": "20201028T152106Z",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "AWS4-HMAC-SHA256 Credential=AKIAYB3RBVGRH62374V3/20201028/ap-southeast-2/execute-api/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=4932d9081f103f4a7ae91a6e3ba4369115f07b9da4547454c4e4f9c6b0617243",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://4l0lykktz2.execute-api.ap-southeast-2.amazonaws.com/dev/fetch/f5ebb473-3128-49e7-917e-bbc40f20567e",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603929221719,
+			"name": "GET Request",
+			"description": "",
+			"collectionId": "ee0cdccc-a144-332d-0aef-8aa572d2a6b6",
+			"responses": [],
+			"rawModeData": "{\n\t\"item\" : \"mango\",\n\t\"complete\": true\n}"
+		},
+		{
+			"id": "ab4126b2-cb8c-eaa2-2026-212402a2780c",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://4l0lykktz2.execute-api.ap-southeast-2.amazonaws.com/dev/save",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603929195652,
+			"name": "POST Request",
+			"description": "",
+			"collectionId": "ee0cdccc-a144-332d-0aef-8aa572d2a6b6",
+			"responses": [],
+			"rawModeData": "{\n\t\"address\" : \"1 Victoria Avenue\",\n\t\"suburb\": \"Sydney\",\n\t\"postcode\": 2000\n}"
+		},
+		{
+			"id": "e6634dd7-6403-031a-7fbf-3b650e029ff2",
+			"headers": "Content-Type: application/json\nHost: y5xferq6s9.execute-api.ap-southeast-2.amazonaws.com\nX-Amz-Date: 20201028T235149Z\nAuthorization: AWS4-HMAC-SHA256 Credential=AKIATBXV6LDP7PDJCLME/20201028/ap-southeast-2/execute-api/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=bc6a7393ed21fd1ccfb58a3787c80f948e4c01acc5b78f5f03dff33f659ab28f\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Host",
+					"value": "y5xferq6s9.execute-api.ap-southeast-2.amazonaws.com",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-Amz-Date",
+					"value": "20201028T235149Z",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "AWS4-HMAC-SHA256 Credential=AKIATBXV6LDP7PDJCLME/20201028/ap-southeast-2/execute-api/aws4_request, SignedHeaders=content-type;host;x-amz-date, Signature=bc6a7393ed21fd1ccfb58a3787c80f948e4c01acc5b78f5f03dff33f659ab28f",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://4l0lykktz2.execute-api.ap-southeast-2.amazonaws.com/dev/fetchAll",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1603929130363,
+			"name": "GET All Request",
+			"description": "",
+			"collectionId": "ee0cdccc-a144-332d-0aef-8aa572d2a6b6",
+			"responses": [],
+			"rawModeData": "{\n\t\"item\" : \"mango\",\n\t\"complete\": true\n}"
+		}
+	]
+}
